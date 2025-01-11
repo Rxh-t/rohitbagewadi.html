@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Bagewadi - Personal Profile</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-color: #111; /* Dark background */
+            color: #eee; /* Light text */
+            line-height: 1.6;
+            overflow-x: hidden; /* Prevent horizontal scroll on some effects */
+        }
+
+        section {
+            padding: 80px 20px;
+            text-align: center; /* Center content in sections */
+        }
+        
+        h1, h2 {
+            font-weight: 900; /* Extra bold headings */
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        
+        h2 {
+            font-size: 2em;
+            margin-bottom: 40px;
+        }
+
+        p {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .highlight {
+            color: #0f0; /* Green highlight color */
+        }
+
+        .project-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+          gap: 20px;
+          padding: 20px;
+        }
+
+        .project {
+            background-color: #222;
+            padding: 20px;
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 255, 0, 0.2);
+        }
+        .project img {
+            max-width: 100%;
+            height: auto;
+            display: block; /* Prevents image from affecting layout */
+            margin-bottom: 10px;
+        }
+        a {
+            color: #0f0;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #0a0;
+        }
+        footer {
+            background-color: #000;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Add more styling as needed */
+    </style>
+</head>
+<body>
+
+    <section id="hero">
+        <h1>Rohit Bagewadi</h1>
+        <h2>Creative <span class="highlight">Developer</span> & <span class="highlight">Designer</span></h2>
+        <p>A brief, powerful introduction about yourself. What makes you unique? What are your passions? What problems do you solve?</p>
+    </section>
+
+    <section id="projects">
+        <h2>Selected Projects</h2>
+        <div class="project-grid">
+            <div class="project">
+                <img src="placeholder.jpg" alt="Project 1">
+                <h3>Project Title 1</h3>
+                <p>Short project description.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project">
+                <img src="placeholder.jpg" alt="Project 2">
+                <h3>Project Title 2</h3>
+                <p>Short project description.</p>
+                <a href="#">View Project</a>
+            </div>
+            </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>More detailed information about your background, skills, and experience. You can also include a photo here.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p>8660487957 and .</p>
+        <a href="bagewadirohit07.gmailcom">Email Me</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Name</p>
+    </footer>
+
+</body>
+</html>
